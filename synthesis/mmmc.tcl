@@ -3,8 +3,8 @@
 # Created by Genus(TM) Synthesis Solution 16.10-p006_1 on Wed Aug 08 14:12:58 -0300 2018
 #
 #################################################################################
-##set LIB_PATH "/pdk/xfab/XC018_61_3.1.3"
-set LIB_PATH "/pdk/tsmc/TSMC180/"
+set LIB_PATH "/pdk/xfab/XC018_61_3.1.3"
+##set LIB_PATH "/pdk/tsmc/TSMC180/"
 
 set slow_corner_extraction typical
 set typ_corner_extraction  typical
