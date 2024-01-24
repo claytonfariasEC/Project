@@ -27,66 +27,73 @@
      )	
 	
     (top
-	(inst  name="pinst_address0"    cell=ICP  place_status=fixed )
-	(inst  name="pinst_address1" cell=ICP	place_status=fixed )
-	(inst  name="pinst_address2" cell=ICP	place_status=fixed )
-	(inst  name="pinst_address3" cell=ICP	place_status=fixed )
-
+	
+	(inst  name="pinst_dataa0"    cell=ICP    place_status=fixed )
+	(inst  name="pinst_dataa1"    cell=ICP	place_status=fixed )
+	(inst  name="pinst_dataa2"    cell=ICP	place_status=fixed )
+	(inst  name="pinst_dataa3"    cell=ICP	place_status=fixed )
 	(inst  name="power_top"   cell=VDDIPADP	place_status=fixed )
 	(inst  name="ground_top"  cell=GNDOPADP	place_status=fixed )
-
-	(inst  name="pinst_address4" cell=ICP	place_status=fixed )
-	(inst  name="pinst_vout_addr0"    cell=ICP  place_status=fixed )
-	(inst  name="pinst_vout_addr1"    cell=ICP  place_status=fixed )	
+    (inst  name="pinst_dataa4"    cell=ICP    place_status=fixed )	
+	(inst  name="pinst_dataa5"    cell=ICP	place_status=fixed )
+	(inst  name="pinst_dataa6"    cell=ICP	place_status=fixed )
+	(inst  name="pinst_dataa7"    cell=ICP	place_status=fixed )
+	(inst  name="pinst_datab6"    cell=ICP  place_status=fixed )
+	
 	
 	
 	
     )
     (left
-	
-	(inst  name="pinst_instr_i0"    cell=ICP  place_status=fixed )
-	(inst  name="pinst_instr_i1"    cell=ICP  place_status=fixed )
-	(inst  name="pinst_instr_i2"    cell=ICP  place_status=fixed )
-	(inst  name="pinst_instr_i3"    cell=ICP  place_status=fixed )
-	(inst  name="pinst_instr_i4"    cell=ICP  place_status=fixed )
 
+	(inst  name="pinst_adder_out0"    cell=BD8P  place_status=fixed )
+	(inst  name="pinst_adder_out1"    cell=BD8P  place_status=fixed )
+	(inst  name="pinst_adder_out2"    cell=BD8P  place_status=fixed )
+	(inst  name="pinst_adder_out3"    cell=BD8P  place_status=fixed )
 	(inst  name="power_left"   cell=VDDIPADP	place_status=fixed )
 	(inst  name="ground_left"  cell=GNDOPADP	place_status=fixed )
-
-	(inst  name="pinst_instr_i5"    cell=ICP  place_status=fixed )
-	(inst  name="pinst_instr_i6"    cell=ICP  place_status=fixed )
-	(inst  name="pinst_easter_egg0"    cell=BD8P  place_status=fixed )
+	(inst  name="pinst_datab0"    cell=ICP  place_status=fixed )
+	(inst  name="pinst_datab1"    cell=ICP  place_status=fixed )
+	(inst  name="pinst_datab2"    cell=ICP  place_status=fixed )
+	(inst  name="pinst_datab3"    cell=ICP  place_status=fixed )
+	(inst  name="pinst_datab4"    cell=ICP  place_status=fixed )
 	
+
 	
 	
     )
     (bottom
-	(inst  name="pinst_clk_i"    cell=ICP  place_status=fixed )
-	(inst  name="pinst_DataOrReg"    cell=ICP  place_status=fixed )
-	(inst  name="pinst_resetn" cell=ICP  place_status=fixed )
-
+	
+	(inst  name="pinst_clk"    cell=ICP  place_status=fixed )
+	(inst  name="pinst_aclr"    cell=ICP  place_status=fixed )
+	(inst  name="pinst_clken" cell=ICP  place_status=fixed )
+	(inst  name="pinst_sload" cell=ICP  place_status=fixed )
 	(inst  name="power_bottom"   cell=VDDIPADP	place_status=fixed )
 	(inst  name="ground_bottom"  cell=GNDOPADP	place_status=fixed )
-
-	(inst  name="pinst_instr_i7"    cell=ICP  place_status=fixed )
-	(inst  name="pinst_is_positive"    cell=BD8P  place_status=fixed )
-	(inst  name="pinst_easter_egg1"    cell=BD8P  place_status=fixed )
-	(inst  name="pinst_easter_egg2"    cell=BD8P  place_status=fixed )
+	(inst  name="pinst_adder_out14"    cell=BD8P  place_status=fixed )
+	(inst  name="pinst_adder_out15"    cell=BD8P  place_status=fixed )
 	
+	(inst  name="pinst_datab7"    cell=ICP  place_status=fixed )
+	(inst  name="pinst_datab8"    cell=ICP  place_status=fixed )
+	
+	(inst  name="pinst_datab5"    cell=ICP  place_status=fixed )
+	(inst  name="pinst_adder_out4"    cell=BD8P  place_status=fixed )
+
+
     )
     (right
-	(inst  name="pinst_value_o0"    cell=BD8P  place_status=fixed )
-	(inst  name="pinst_value_o1"    cell=BD8P  place_status=fixed )
-	(inst  name="pinst_value_o2"    cell=BD8P  place_status=fixed )
 
+		(inst  name="pinst_adder_out5"    cell=BD8P  place_status=fixed )
+	(inst  name="pinst_adder_out6"    cell=BD8P  place_status=fixed )
+	(inst  name="pinst_adder_out7"    cell=BD8P  place_status=fixed )
 	(inst  name="power_rigth"   cell=VDDIPADP	place_status=fixed )
 	(inst  name="ground_right"  cell=GNDOPADP	place_status=fixed )
-
-	(inst  name="pinst_value_o3"    cell=BD8P  place_status=fixed )
-	(inst  name="pinst_value_o4"    cell=BD8P  place_status=fixed )
-	(inst  name="pinst_value_o5"    cell=BD8P  place_status=fixed )
-	(inst  name="pinst_value_o6"    cell=BD8P  place_status=fixed )
-	(inst  name="pinst_value_o7"    cell=BD8P  place_status=fixed )
+	(inst  name="pinst_adder_out8"     cell=BD8P  place_status=fixed )
+	(inst  name="pinst_adder_out9"     cell=BD8P  place_status=fixed )
+	(inst  name="pinst_adder_out10"    cell=BD8P  place_status=fixed )
+	(inst  name="pinst_adder_out11"    cell=BD8P  place_status=fixed )
+	(inst  name="pinst_adder_out12"    cell=BD8P  place_status=fixed )
+	(inst  name="pinst_adder_out13"    cell=BD8P  place_status=fixed )
 	
     )
 )

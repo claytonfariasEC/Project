@@ -9,4 +9,4 @@
 # Floorplain site specifications   
 #create_floorplan -site core -core_density_size 1 0.78 75 75 75 75
 #create_floorplan -core_density_size 1 0.78 50 50 50 50
-create_floorplan -site core -core_density_size 1 0.78 75 75 75 75
+create_floorplan -site core -core_density_size 1 0.78 120 120 120 120
